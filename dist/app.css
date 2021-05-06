@@ -1,0 +1,70 @@
+/* Importiamo IN ORDINE le varie sezioni che verranno poi unite e tradotte in CSS */
+/* Contiene tutte le variabili */
+/* Variabilizziamo i selettori CSS, creiamo set di regole riutilizzabili */
+/* COMMON rules */
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #58402c;
+  font-weight: bolder;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+/* Main content */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #58402c;
+}
+nav .logo {
+  width: 120px;
+}
+nav .right-col li {
+  margin-left: 15px;
+}
+nav .right-col li button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #7d8db9;
+}
+nav .right-col li button .google-button, nav .right-col li button span {
+  display: inline-block;
+  vertical-align: middle;
+}
+nav .right-col li button .google-button {
+  width: 20px;
+}
+nav .right-col li button span {
+  color: #7d8db9;
+  font-weight: bolder;
+}

@@ -6,3 +6,6 @@ mix
 .options({
     processCssUrls:false
 });
+
+/*  Aggiungiamo options per evitare che SASS crei la cartella images 
+    e si comporti normalmente */

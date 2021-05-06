@@ -1,8 +1,5 @@
-/* Importiamo le varie sezioni che verranno poi unite e tradotte in CSS */
-/* @import 'partials/variables';
-@import 'partials/mixins'; */
-
-body {
-    /* TEST */
-    background-color: lightblue;
-}
+/* Importiamo IN ORDINE le varie sezioni che verranno poi unite e tradotte in CSS */
+@import 'partials/variables';
+@import 'partials/mixins';
+@import 'partials/common';
+@import 'partials/content';
