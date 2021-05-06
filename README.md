@@ -1,0 +1,1 @@
+# Teambit sample with SCSS
