@@ -1,0 +1,68 @@
+/* HEADER content */
+nav {
+    @include display_flex_centered;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+
+    .logo {
+        width: 120px;
+    }
+
+    .right-col li {
+        margin-left: 15px;
+
+        button {
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px solid $button_blue_color;
+            cursor: pointer;
+
+            .google-button, span {
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .google-button {
+                width: 20px;
+            }
+            span {
+                color: $button_blue_color;
+                font-weight: bolder;
+            }
+        }
+    }
+}
+
+.header-section {
+    @include clearfix;
+    padding: 35px 0;
+
+    .left-col,
+    .right-col {
+        float: left;
+        width: 50%;
+    }
+
+    .left-col {
+        .text p {
+            margin: 5px 0 80px 0;
+        }
+
+        .sign-up-buttons {
+            button {
+            padding: 5px;
+            color: white;
+            background-color: $button_blue_color;
+            border-radius: 5px;
+            cursor: pointer;
+                div {
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 20px;
+                }
+            }
+            p {
+                margin-top: 20px;
+            }
+        }
+    }
+}

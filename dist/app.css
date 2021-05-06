@@ -16,6 +16,7 @@ img {
 
 body {
   font-family: "Source Sans Pro", sans-serif;
+  color: #58402c;
 }
 
 a {
@@ -38,13 +39,13 @@ li {
   list-style-type: none;
 }
 
-/* Main content */
+/* HEADER content */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 10px;
-  border-bottom: 1px solid #58402c;
+  border-bottom: 1px solid;
 }
 nav .logo {
   width: 120px;
@@ -55,7 +56,8 @@ nav .right-col li {
 nav .right-col li button {
   padding: 10px;
   border-radius: 10px;
-  border: 2px solid #7d8db9;
+  border: 2px solid #2e4790;
+  cursor: pointer;
 }
 nav .right-col li button .google-button, nav .right-col li button span {
   display: inline-block;
@@ -65,6 +67,38 @@ nav .right-col li button .google-button {
   width: 20px;
 }
 nav .right-col li button span {
-  color: #7d8db9;
+  color: #2e4790;
   font-weight: bolder;
 }
+
+.header-section {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 35px 0;
+}
+.header-section .left-col,
+.header-section .right-col {
+  float: left;
+  width: 50%;
+}
+.header-section .left-col .text p {
+  margin: 5px 0 80px 0;
+}
+.header-section .left-col .sign-up-buttons button {
+  padding: 5px;
+  color: white;
+  background-color: #2e4790;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.header-section .left-col .sign-up-buttons button div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+}
+.header-section .left-col .sign-up-buttons p {
+  margin-top: 20px;
+}
+
+/* MAIN section */
