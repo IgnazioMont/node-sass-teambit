@@ -15,17 +15,13 @@ body {
     color: $main_text_color;
 }
 
-h2 {
-    font-size: 32px;
-}
 
-h3 {
-    font-size: 25px;
-}
+/* Style */
+h2 { font-size: 32px; }
 
-h4 {
-    font-size: 20px;
-}
+h3 { font-size: 25px; }
+
+h4 { font-size: 20px; }
 
 a {
     text-decoration: none;
@@ -38,15 +34,14 @@ a {
     margin: auto;
 }
 
-nav {
-    margin-top: 20px;
-}
+nav { margin-top: 20px; }
 
 li {
     display: inline-block;
     list-style-type: none;
 }
 
+/* Buttons */
 .sign-up-buttons {
     button {
     padding: 5px;
@@ -60,7 +55,5 @@ li {
             width: 20px;
         }
     }
-    p {
-        margin-top: 20px;
-    }
+    p { margin-top: 20px; }
 }

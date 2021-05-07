@@ -23,6 +23,7 @@ body {
   color: #3e14e9;
 }
 
+/* Style */
 h2 {
   font-size: 32px;
 }
@@ -55,6 +56,7 @@ li {
   list-style-type: none;
 }
 
+/* Buttons */
 .sign-up-buttons button {
   padding: 5px;
   color: white;
@@ -119,6 +121,21 @@ nav .right-col li button span {
   color: #7f14d4;
 }
 
+/* Media query */
+@media all and (max-width: 991px) {
+  nav .right-col {
+    display: none;
+  }
+
+  .header-section {
+    text-align: center;
+  }
+  .header-section .left-col,
+.header-section .right-col {
+    float: none;
+    width: 100%;
+  }
+}
 /* MAIN section */
 /* Rabbit section */
 .rabbit {
@@ -181,7 +198,6 @@ nav .right-col li button span {
 }
 .screenshot-sections .row .container .text .animal-img {
   padding-top: 20px;
-  width: 350px;
 }
 .screenshot-sections .row.one .left-col, .screenshot-sections .row.three .left-col {
   width: 65%;
@@ -219,7 +235,7 @@ nav .right-col li button span {
   color: #7f14d4;
   margin: auto;
   margin-top: 30px;
-  width: 800px;
+  width: 70%;
   border-radius: 20px;
   padding: 25px;
   border: 2px solid #0e14ee;
@@ -253,6 +269,37 @@ nav .right-col li button span {
   color: white;
 }
 
+/* Media query */
+@media all and (max-width: 991px) {
+  /* Rabbit section */
+  .rabbit .small-imgs {
+    flex-direction: column;
+  }
+  .rabbit .small-imgs .single-img {
+    margin: 10px 0;
+  }
+  .rabbit .small-imgs p {
+    margin-bottom: 30px;
+  }
+
+  /* Screenshot section */
+  .screenshot-sections .row {
+    flex-direction: column;
+  }
+  .screenshot-sections .row .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .screenshot-sections .row .container .left-col,
+.screenshot-sections .row .container .right-col {
+    width: 100%;
+  }
+
+  /* Co-founders section */
+  .co-founders .co-founders-text {
+    width: 90%;
+  }
+}
 /* Footer section */
 .teambit-footer {
   display: flex;
@@ -282,4 +329,26 @@ nav .right-col li button span {
 }
 .teambit-footer li a {
   color: #7f14d4;
+}
+
+/* Media query */
+@media all and (max-width: 991px) {
+  .teambit-footer {
+    flex-direction: column;
+  }
+  .teambit-footer .logo-col {
+    flex-direction: column;
+    width: 100%;
+  }
+  .teambit-footer .logo-col .logo-footer {
+    padding: 10px;
+  }
+  .teambit-footer .logo-col div:last-child {
+    margin-bottom: 20px;
+  }
+  .teambit-footer ul {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0 50px 0;
+  }
 }

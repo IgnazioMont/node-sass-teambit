@@ -66,7 +66,6 @@
                 a { color: $button_blue_color; }
                 .animal-img {
                     padding-top: 20px;
-                    width: 350px;
                 }
             }
         }
@@ -115,7 +114,7 @@
         color: $second_text_color;
         margin: auto;
         margin-top: 30px;
-        width: 800px;
+        width: 70%;
         border-radius: 20px;
         padding: 25px;
         border: 2px solid $button_blue_color;
@@ -149,5 +148,43 @@
         text-align: center;
         padding: 60px 0;
         color: white;
+    }
+}
+
+
+/* Media query */
+@media all and (max-width: $breakpoint) {
+    /* Rabbit section */
+    .rabbit {
+        .small-imgs {
+            flex-direction: column;
+            .single-img {
+                margin: 10px 0;
+            }
+            p { margin-bottom: 30px; }
+        }
+    }
+    
+    /* Screenshot section */
+    .screenshot-sections {
+        .row {
+            flex-direction: column;
+            .container {
+                flex-direction: column;
+                text-align: center;
+
+                .left-col, 
+                .right-col {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    /* Co-founders section */
+    .co-founders {
+        .co-founders-text {
+            width: 90%;
+        }
     }
 }

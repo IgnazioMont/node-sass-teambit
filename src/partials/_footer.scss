@@ -25,3 +25,30 @@
         a { color: $second_text_color; }
     }
 }
+
+
+/* Media query */
+@media all and (max-width: $breakpoint) {
+    .teambit-footer {
+        flex-direction: column;
+
+        .logo-col {
+            flex-direction: column;
+            width: 100%;
+
+            .logo-footer {
+                padding: 10px;
+            }
+
+            div:last-child {
+                margin-bottom: 20px;
+            }
+        }
+
+        ul {
+            width: 100%;
+            text-align: center;
+            margin: 25px 0 50px 0;
+        }
+    }
+}

@@ -49,3 +49,19 @@ nav {
         }
     }
 }
+
+
+/* Media query */
+@media all and (max-width: $breakpoint) {
+    nav .right-col {
+        display: none;
+    }
+    .header-section {
+        text-align: center;
+        .left-col,
+        .right-col {
+            float: none;
+            width: 100%;
+        }
+    }
+}
