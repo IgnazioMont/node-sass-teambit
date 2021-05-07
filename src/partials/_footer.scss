@@ -1,0 +1,27 @@
+/* Footer section */
+.teambit-footer {
+    @include display_flex_centered;
+    align-items: flex-start;
+    padding: 40px 0;
+    font-weight: bolder;
+
+    .logo-col {
+        @include display_flex_centered;
+        width: 30%;
+        margin-right: 40px;
+
+        .logo-footer {
+            width: 80px;
+            margin-right: 5px;
+        }
+    }
+
+    ul {
+        width: 12%;
+    }
+    li {
+        display: block;
+        line-height: 1.6;
+        a { color: $second_text_color; }
+    }
+}

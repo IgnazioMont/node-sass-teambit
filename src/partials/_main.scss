@@ -4,6 +4,7 @@
 .rabbit {
     background-color: $bg_color_section;
     text-align: center;
+    color: white;
 
     .rabbit-top {
         h3 {
@@ -13,7 +14,7 @@
 
     hr {
         margin: 60px 0;
-        border: 1px solid $main_text_color;
+        border: 1px solid white;
     }
 
     .small-imgs {
@@ -58,7 +59,10 @@
             padding-top: 50px;
 
             .text {
-                p { padding: 60px 0 25px 0; }
+                p { 
+                    padding: 60px 0 25px 0;
+                    color: $second_text_color;
+                }
                 a { color: $button_blue_color; }
                 .animal-img {
                     padding-top: 20px;
@@ -103,10 +107,12 @@
         text-align: center;
         line-height: 1.6;
         padding: 40px 0;
+        color: white;
     }
 
     .co-founders-text {
         background-color: white;
+        color: $second_text_color;
         margin: auto;
         margin-top: 30px;
         width: 800px;
@@ -142,5 +148,6 @@
     .sign-up-buttons {
         text-align: center;
         padding: 60px 0;
+        color: white;
     }
 }

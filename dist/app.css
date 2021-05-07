@@ -1,5 +1,9 @@
 /* Importiamo IN ORDINE le varie sezioni che verranno poi unite e tradotte in CSS */
 /* Contiene tutte le variabili */
+/* Persian blue */
+/* Blue */
+/* Dark blue */
+/* Electric violet */
 /* Variabilizziamo i selettori CSS, creiamo set di regole riutilizzabili */
 /* COMMON rules */
 /* RESET */
@@ -16,7 +20,7 @@ img {
 
 body {
   font-family: "Source Sans Pro", sans-serif;
-  color: #58402c;
+  color: #3e14e9;
 }
 
 h2 {
@@ -27,9 +31,13 @@ h3 {
   font-size: 25px;
 }
 
+h4 {
+  font-size: 20px;
+}
+
 a {
   text-decoration: none;
-  color: #58402c;
+  color: #3e14e9;
   font-weight: bolder;
 }
 
@@ -50,7 +58,7 @@ li {
 .sign-up-buttons button {
   padding: 5px;
   color: white;
-  background-color: #2e4790;
+  background-color: #0e14ee;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -80,7 +88,7 @@ nav .right-col li {
 nav .right-col li button {
   padding: 10px;
   border-radius: 10px;
-  border: 2px solid #2e4790;
+  border: 2px solid #0e14ee;
   cursor: pointer;
 }
 nav .right-col li button .google-button, nav .right-col li button span {
@@ -91,7 +99,7 @@ nav .right-col li button .google-button {
   width: 20px;
 }
 nav .right-col li button span {
-  color: #2e4790;
+  color: #0e14ee;
   font-weight: bolder;
 }
 
@@ -108,20 +116,22 @@ nav .right-col li button span {
 }
 .header-section .left-col .text p {
   margin: 5px 0 80px 0;
+  color: #7f14d4;
 }
 
 /* MAIN section */
 /* Rabbit section */
 .rabbit {
-  background-color: #ffe7d2;
+  background-color: #0414b3;
   text-align: center;
+  color: white;
 }
 .rabbit .rabbit-top h3 {
   padding-top: 40px;
 }
 .rabbit hr {
   margin: 60px 0;
-  border: 1px solid #58402c;
+  border: 1px solid white;
 }
 .rabbit .small-imgs {
   display: flex;
@@ -164,9 +174,10 @@ nav .right-col li button span {
 }
 .screenshot-sections .row .container .text p {
   padding: 60px 0 25px 0;
+  color: #7f14d4;
 }
 .screenshot-sections .row .container .text a {
-  color: #2e4790;
+  color: #0e14ee;
 }
 .screenshot-sections .row .container .text .animal-img {
   padding-top: 20px;
@@ -194,22 +205,24 @@ nav .right-col li button span {
 
 /* Co-founders section */
 .co-founders {
-  background-color: #ffe7d2;
+  background-color: #0414b3;
   padding-bottom: 20px;
 }
 .co-founders h2 {
   text-align: center;
   line-height: 1.6;
   padding: 40px 0;
+  color: white;
 }
 .co-founders .co-founders-text {
   background-color: white;
+  color: #7f14d4;
   margin: auto;
   margin-top: 30px;
   width: 800px;
   border-radius: 20px;
   padding: 25px;
-  border: 2px solid #2e4790;
+  border: 2px solid #0e14ee;
 }
 .co-founders .co-founders-profiles {
   display: flex;
@@ -231,10 +244,42 @@ nav .right-col li button span {
   margin-right: 15px;
 }
 .co-founders .co-founders-profiles .profiles-text p:first-child {
-  color: #2e4790;
+  color: #0e14ee;
   font-size: 20px;
 }
 .co-founders .sign-up-buttons {
   text-align: center;
   padding: 60px 0;
+  color: white;
+}
+
+/* Footer section */
+.teambit-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-start;
+  padding: 40px 0;
+  font-weight: bolder;
+}
+.teambit-footer .logo-col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  margin-right: 40px;
+}
+.teambit-footer .logo-col .logo-footer {
+  width: 80px;
+  margin-right: 5px;
+}
+.teambit-footer ul {
+  width: 12%;
+}
+.teambit-footer li {
+  display: block;
+  line-height: 1.6;
+}
+.teambit-footer li a {
+  color: #7f14d4;
 }
