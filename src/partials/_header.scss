@@ -46,23 +46,5 @@ nav {
         .text p {
             margin: 5px 0 80px 0;
         }
-
-        .sign-up-buttons {
-            button {
-            padding: 5px;
-            color: white;
-            background-color: $button_blue_color;
-            border-radius: 5px;
-            cursor: pointer;
-                div {
-                    display: inline-block;
-                    vertical-align: middle;
-                    width: 20px;
-                }
-            }
-            p {
-                margin-top: 20px;
-            }
-        }
     }
 }

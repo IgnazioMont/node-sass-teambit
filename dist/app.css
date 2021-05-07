@@ -19,6 +19,14 @@ body {
   color: #58402c;
 }
 
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
 a {
   text-decoration: none;
   color: #58402c;
@@ -26,7 +34,7 @@ a {
 }
 
 .container {
-  width: 1200px;
+  width: 80%;
   margin: auto;
 }
 
@@ -37,6 +45,22 @@ nav {
 li {
   display: inline-block;
   list-style-type: none;
+}
+
+.sign-up-buttons button {
+  padding: 5px;
+  color: white;
+  background-color: #2e4790;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sign-up-buttons button div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+}
+.sign-up-buttons p {
+  margin-top: 20px;
 }
 
 /* HEADER content */
@@ -85,20 +109,132 @@ nav .right-col li button span {
 .header-section .left-col .text p {
   margin: 5px 0 80px 0;
 }
-.header-section .left-col .sign-up-buttons button {
-  padding: 5px;
-  color: white;
-  background-color: #2e4790;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.header-section .left-col .sign-up-buttons button div {
-  display: inline-block;
-  vertical-align: middle;
-  width: 20px;
-}
-.header-section .left-col .sign-up-buttons p {
-  margin-top: 20px;
-}
 
 /* MAIN section */
+/* Rabbit section */
+.rabbit {
+  background-color: #ffe7d2;
+  text-align: center;
+}
+.rabbit .rabbit-top h3 {
+  padding-top: 40px;
+}
+.rabbit hr {
+  margin: 60px 0;
+  border: 1px solid #58402c;
+}
+.rabbit .small-imgs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+.rabbit .small-imgs .single-img-content {
+  text-align: center;
+}
+.rabbit .small-imgs .single-img {
+  padding-bottom: 20px;
+}
+.rabbit .small-imgs .single-img img {
+  height: 80px;
+  width: auto;
+  margin: auto;
+}
+.rabbit .rabbit-img {
+  width: 300px;
+  margin: auto;
+}
+.rabbit .rabbit-bottom h3:last-child {
+  padding: 80px 0 40px 0;
+}
+
+/* Screenshot section */
+.screenshot-sections .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.screenshot-sections .row .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: unset;
+  padding-top: 50px;
+}
+.screenshot-sections .row .container .text p {
+  padding: 60px 0 25px 0;
+}
+.screenshot-sections .row .container .text a {
+  color: #2e4790;
+}
+.screenshot-sections .row .container .text .animal-img {
+  padding-top: 20px;
+  width: 350px;
+}
+.screenshot-sections .row.one .left-col, .screenshot-sections .row.three .left-col {
+  width: 65%;
+}
+.screenshot-sections .row.one .right-col, .screenshot-sections .row.three .right-col {
+  width: 35%;
+}
+.screenshot-sections .row.two, .screenshot-sections .row.four {
+  justify-content: flex-end;
+  text-align: right;
+}
+.screenshot-sections .row.two .left-col, .screenshot-sections .row.four .left-col {
+  width: 35%;
+}
+.screenshot-sections .row.two .right-col, .screenshot-sections .row.four .right-col {
+  width: 65%;
+}
+.screenshot-sections .row.four {
+  padding-bottom: 30px;
+}
+
+/* Co-founders section */
+.co-founders {
+  background-color: #ffe7d2;
+  padding-bottom: 20px;
+}
+.co-founders h2 {
+  text-align: center;
+  line-height: 1.6;
+  padding: 40px 0;
+}
+.co-founders .co-founders-text {
+  background-color: white;
+  margin: auto;
+  margin-top: 30px;
+  width: 800px;
+  border-radius: 20px;
+  padding: 25px;
+  border: 2px solid #2e4790;
+}
+.co-founders .co-founders-profiles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+.co-founders .co-founders-profiles .profiles-imgs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
+  width: 140px;
+  margin-right: 15px;
+}
+.co-founders .co-founders-profiles .profiles-imgs img {
+  width: 60px;
+  margin-right: 15px;
+}
+.co-founders .co-founders-profiles .profiles-text p:first-child {
+  color: #2e4790;
+  font-size: 20px;
+}
+.co-founders .sign-up-buttons {
+  text-align: center;
+  padding: 60px 0;
+}
